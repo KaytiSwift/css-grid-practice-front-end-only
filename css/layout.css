@@ -1,5 +1,30 @@
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
+
+.container {
+    display: grid;
+    width: 1000px;
+    margin: 2rem auto;
+    grid-template-rows: 100px 460px 150px;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: 680px 300px;
+    grid-column-gap: 20px;    
+}
+
+.main__content{
+    display: grid;
+    grid-row-gap: 15px;    
+}
+
+.main__sidebar{
+    display: grid;    
+    grid-row-gap: 15px;
+}
+
